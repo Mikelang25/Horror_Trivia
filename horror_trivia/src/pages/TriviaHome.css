@@ -1,0 +1,96 @@
+
+body {
+    background-image: url(../../public/asylum.jpg);
+    background-size: cover;
+    font-family:sans-serif !important;
+    font-weight: bold !important;
+}
+.top-buffer{
+    height:200px;
+    padding: 0 !important;
+    margin:0 !important;
+    color: white;
+    font-family: 'Creepster', cursive;
+    font-size: 75pt;
+    text-shadow: 0 0 10px black;
+}
+
+.question-container{
+    border: 1pt solid black;
+    border-bottom: none;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    min-height:400px;
+    background-color: white;
+}
+
+.answer{
+    border: 1pt solid black;
+    height:50px;
+    width: 80% !important;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding:10px;
+    margin-left:10%;
+    cursor: pointer;
+}
+
+.question{
+    margin-top:15px !important;
+    margin-bottom: 30px;
+    font-size: 18pt;
+}
+
+.answer:hover{
+    background-color: black;
+    color:white;
+}
+
+.button-container{
+    position: absolute;
+    right: 20px;
+    padding-bottom: 10px !important;
+    text-align: right;
+}
+
+.score-container{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    padding-bottom: 10px;
+}
+
+.next-button{
+margin-top:60px;
+}
+
+.question-bottom{
+    height:50px;
+    position: relative;
+    border:1pt solid black;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+
+.game-over-container{
+    height:400px !important;
+    vertical-align: middle !important;
+}
+
+.game-over{
+    font-size: 20pt;
+    padding: 30px;
+}
+
+.score-board{
+    font-size: 24pt;
+    padding-top: 20px;
+}
+
+.btn-restart{
+    width: 100px !important;
+    margin-top: 100px;
+}
